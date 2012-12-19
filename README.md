@@ -1,4 +1,5 @@
 django-userfactory
 ==================
 
-Create User instances with factory_boy
+
+Using [factory_boy](https://github.com/rbarrois/factory_boy) to create User instances.
