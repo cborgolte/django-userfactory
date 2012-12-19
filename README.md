@@ -9,7 +9,7 @@ Factories exist for general user, staff user and admins.
 
 Example:
 
-``
+```python
 from userfactory.userfactory import UserFactory, StaffUserFactory, AdminUserFactory
 user = UserFactory()
 print user.__dict__
@@ -26,5 +26,4 @@ print user.__dict__
  'last_name': u'Reiners',
  'password': 'pbkdf2_sha256$10000$DLtc4vBFEsZY$5K53yZkVihNkADtY39JJVyKwfM8tNpZX2d6lSZgHt3k=',
  'username': 'lorellereiners'}
-
-``
+```
